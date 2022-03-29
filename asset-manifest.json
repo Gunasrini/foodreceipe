@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/foodreceipe/static/css/main.2517dfa2.css",
+    "main.js": "/foodreceipe/static/js/main.57cf6dd5.js",
+    "static/js/787.cc627518.chunk.js": "/foodreceipe/static/js/787.cc627518.chunk.js",
+    "index.html": "/foodreceipe/index.html",
+    "main.2517dfa2.css.map": "/foodreceipe/static/css/main.2517dfa2.css.map",
+    "main.57cf6dd5.js.map": "/foodreceipe/static/js/main.57cf6dd5.js.map",
+    "787.cc627518.chunk.js.map": "/foodreceipe/static/js/787.cc627518.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2517dfa2.css",
+    "static/js/main.57cf6dd5.js"
+  ]
+}
