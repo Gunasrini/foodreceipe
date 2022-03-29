@@ -1,38 +1,87 @@
-.App {
+body {
+  background-color: rgb(15,15,15)
+}
+.foodContainer h1{
+  color:white;
+  font-size: 48px;
+  font-weight:900;
+  letter-spacing: 1px;
+  padding-top:2rem;
+  text-align: center;
+  text-shadow: 3px 6px rgba(50,50,70,0.7);
+}
+.foodContainer p {
+  color:white;
+  text-align: center;
+}
+.searchfood{
+  text-align: center;
+  margin:3rem;
+ 
+}
+.search-bar{
+  width:400px;
+  height:40px;
+  border:none;
+  outline:none;
+  border-radius: 20px;
+  padding: 0.3rem 1rem;
+}
+.container{
+  width:80%;
+  margin:0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card{
+  width:300px;
+  /* height:400px; */
+  margin:1.5rem;
+  padding-bottom: 20px;
+  background: linear-gradient(to left,rgb(204, 255, 51,0.5),to left,rgb(255, 255, 255,0.9));
+  border-radius: 8px;
+  box-shadow: 0 7px 12px rgb(204, 255, 51,0.5);
+  box-sizing: border-box;
+  overflow: auto;
+  position:relative;
+}
+.card img{
+  width:100%;
+}
+.card .info{
+  color:white;  
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card .info h2 {
+    margin:0;
+    font-weight: 900;
+    margin-top: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card .info p {
+  margin: 0;
+  font-size: 17px;
+  letter-spacing: 2px;
+  margin-top: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h3.notfound {
+  color: #fff;
+  font-size: 30px;
 }
-
-.App-link {
-  color: #61dafb;
+.ingredient {
+  display: block;
+  background: #fff;
+  width: 150px;
+  margin: 20px auto 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 0;
+  border-radius: 6px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+span.category {
+  display: block;
+  margin: 10px 0 15px;
 }
+.searchfood button {color: #fff;padding: 7px 15px;background: #000;border: 1px solid #fff;font-size: 18px;border-radius: 5px;margin-left: 20px;}
